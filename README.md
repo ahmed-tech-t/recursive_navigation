@@ -47,9 +47,6 @@ Build and run the app.
 
 The state of the tree is automatically saved on the device and retrieved on the next login.
 
-<h2> License </h2>
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 <h2> Acknowledgements </h2>
 This project was inspired by the concept of tree data structure.
 
