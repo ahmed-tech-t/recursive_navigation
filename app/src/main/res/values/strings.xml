@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">recursive navigation</string>
+    <string name="noMoreLeaves">No More Leaves</string>
+    <string name="root">Root</string>
+    <string name="newItem">New item</string>
+    <string name="add">Add</string>
+    <string name="snackBarMessage">Successfully deleted child</string>
+    <string name="undo">Undo</string>
+</resources>
