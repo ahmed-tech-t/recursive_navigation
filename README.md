@@ -1,4 +1,4 @@
-# Recursive Navigation
+<h1> Recursive Navigation </h1>
 A mobile app that allows you to create a tree structure consisting of nodes, each of which has a name, children, and a reference to its parent. The app has a single screen with recursive navigation within this tree. You can create and delete entities at each level, and the state of the tree is saved on the device and pulled up on the next login. The node name is formed from the last 20 bytes of the node's hash, similar to Ethereum wallet addresses.
 
 Technologies Used
