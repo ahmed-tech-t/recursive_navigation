@@ -4,8 +4,8 @@ package com.example.recursivenavigation.entity
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.example.recursivenavigation.util.Constants.TREE_TABLE
-import com.example.recursivenavigation.util.SHA.sha3_256
 import com.google.gson.annotations.SerializedName
+import java.security.MessageDigest
 
 @Entity(tableName = TREE_TABLE)
 data class TreeNode (var value:String){
@@ -19,8 +19,18 @@ data class TreeNode (var value:String){
     @SerializedName("children")
     var children:MutableList<TreeNode> = mutableListOf()
 
-    val name: String
-        get() = value.toByteArray().sha3_256().takeLast(20).toString()
+    var name: String = ""
+
+    init {
+        // Compute SHA-256 hash of the value property
+        val digest = MessageDigest.getInstance("SHA-256")
+        val hash = digest.digest(value.toByteArray(Charsets.UTF_8))
+
+        // Extract last 20 bytes of the hash and use as the name
+        val nameBytes = hash.sliceArray(hash.size - 20 until hash.size)
+        name = nameBytes.joinToString("") { String.format("%02x", it) }
+    }
+
 
     override fun toString(): String {
         var s = "${value}"
