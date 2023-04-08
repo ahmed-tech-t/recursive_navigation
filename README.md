@@ -36,13 +36,17 @@ Open the project in Android Studio.
 Build and run the app.
 
 <h2> Usage </h2>
-The app's main screen displays the root level of the tree. You can navigate to the child levels by clicking on the nodes. To create a new node, click on the "Add" button at the top right corner of the screen. To delete a node, long press on the node you want to delete and click on the "Delete" button.
+* The app's main screen displays the secound level of the tree. 
+* You can navigate to the child levels by clicking on the nodes. 
+* To create a new node , click on the "Add" button at the bottom right corner of the screen. 
+* To delete a node, swipe the node to left or right and you can undo deletion by clicking undo in snackbar.
 
 The state of the tree is automatically saved on the device and retrieved on the next login.
 
-License
+<h2> License </h2>
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgements
+<h2> Acknowledgements </h2>
 This project was inspired by the concept of tree data structure.
+
 Thanks to the open source community for providing useful libraries and tools.
