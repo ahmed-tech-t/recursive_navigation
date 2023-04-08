@@ -5,15 +5,15 @@ A mobile app that allows you to create a tree structure consisting of nodes, eac
 
 <b> Hilt </b> : dependency injection library for Android
 
-<h3> AndroidX Activity KTX  </h3> : provides Kotlin extensions for Android activities
+<b> AndroidX Activity KTX  </b> : provides Kotlin extensions for Android activities
 
-<h3> ViewModel </h3> : architecture component for managing UI-related data in a lifecycle-conscious way
+<b> ViewModel </b> : architecture component for managing UI-related data in a lifecycle-conscious way
 
-<h3> Room  </h3> : persistence library for local data storage
+<b> Room  </b> : persistence library for local data storage
 
-<h3> Gson  </h3> : a Java serialization/deserialization library to convert Java Objects into JSON and back
+<b> Gson  </b> : a Java serialization/deserialization library to convert Java Objects into JSON and back
 
-<h3> Coroutines  </h3> : a lightweight framework for asynchronous programming in Java and Kotlin
+<b> Coroutines  </b> : a lightweight framework for asynchronous programming in Java and Kotlin
 
 <h2> Getting Started </h2>
 
