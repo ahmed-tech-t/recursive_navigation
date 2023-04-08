@@ -1,23 +1,34 @@
 <h1> Recursive Navigation </h1>
 A mobile app that allows you to create a tree structure consisting of nodes, each of which has a name, children, and a reference to its parent. The app has a single screen with recursive navigation within this tree. You can create and delete entities at each level, and the state of the tree is saved on the device and pulled up on the next login. The node name is formed from the last 20 bytes of the node's hash, similar to Ethereum wallet addresses.
 
-Technologies Used
-Hilt: dependency injection library for Android
-AndroidX Activity KTX: provides Kotlin extensions for Android activities
-ViewModel: architecture component for managing UI-related data in a lifecycle-conscious way
-Room: persistence library for local data storage
-Gson: a Java serialization/deserialization library to convert Java Objects into JSON and back
-Coroutines: a lightweight framework for asynchronous programming in Java and Kotlin
-Kotlinx Serialization: a Kotlin library for serialization and deserialization of JSON objects
-Bouncy Castle Provider: a Java library that provides security features such as cryptography algorithms
-Getting Started
-Prerequisites
-Android Studio 4.0 or higher
-Gradle 6.5 or higher
-Installation
-Clone the repo:
-bash
-Copy code
+<h2> Technologies Used </h2>
+
+<h3> Hilt </h3> : dependency injection library for Android
+
+<h3> AndroidX Activity KTX  </h3> : provides Kotlin extensions for Android activities
+
+<h3> ViewModel </h3> : architecture component for managing UI-related data in a lifecycle-conscious way
+
+<h3> Room  </h3> : persistence library for local data storage
+
+<h3> Gson  </h3> : a Java serialization/deserialization library to convert Java Objects into JSON and back
+
+<h3> Coroutines  </h3> : a lightweight framework for asynchronous programming in Java and Kotlin
+
+<h2> Getting Started </h2>
+
+<h3> Prerequisites </h3>
+
+* Android Studio 4.0 or higher
+* Gradle 6.5 or higher
+
+<h3> Installation </h3>
+
+* Clone the repo:
+* bash
+
+<h3> Copy code </h3>
+
 git clone https://github.com/ahmed-tech-t/recursive_navigation.git
 Open the project in Android Studio.
 
