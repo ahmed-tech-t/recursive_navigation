@@ -36,6 +36,7 @@ Open the project in Android Studio.
 Build and run the app.
 
 <h2> Usage </h2>
+
 * The app's main screen displays the secound level of the tree. 
 
 * You can navigate to the child levels by clicking on the nodes. 
