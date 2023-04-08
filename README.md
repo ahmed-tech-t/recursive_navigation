@@ -3,7 +3,7 @@ A mobile app that allows you to create a tree structure consisting of nodes, eac
 
 <h2> Technologies Used </h2>
 
-<h3> Hilt </h3> : dependency injection library for Android
+<b> Hilt </b> : dependency injection library for Android
 
 <h3> AndroidX Activity KTX  </h3> : provides Kotlin extensions for Android activities
 
